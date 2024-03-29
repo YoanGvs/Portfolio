@@ -10,8 +10,7 @@ const Hero = () => {
         <img src={ppImg} className="profile-picture" alt="profile picture" />
       </div>
       <div className="Hero-text">
-        <h1>Front-End React Developer</h1>
-        <img src={hand} className="text-hand" alt="waving hand" />
+        <h1>Front-End React Developer 👋🏻</h1>
       </div>
       <p>
         Hi, I'm Yoan Govaerts. A passionate Front-end React Developer based in
