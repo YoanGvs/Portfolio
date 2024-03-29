@@ -1,0 +1,12 @@
+.Header {
+  position: fixed; // Fixe le header en haut de la page
+  top: 0; // Positionne le header au sommet
+  width: 100%; // Assure que le header prend toute la largeur de la page
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  z-index: 100;
+  background-color: white;
+}
