@@ -8,6 +8,8 @@ const Projet = () => {
       <Portfolio />
     </div>
   )
-}
+}*
+
+
 
 export default Projet
