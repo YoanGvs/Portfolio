@@ -14,5 +14,13 @@
     "image": "https://i.imgur.com/nBGojiQm.jpg",
     "tags": ["HTML", "CSS", "JS", "REACT"],
     "link": "http://lien-vers-le-projet2.com"
+  },
+  {
+    "id": 3,
+    "name": "Argent Bank",
+    "description": "Une courte description du projet 2.",
+    "image": "https://i.imgur.com/NrE0mDy.png",
+    "tags": ["HTML", "CSS", "JS", "REACT", "REDUX"],
+    "link": "https://github.com/YoanGvs/Argent-Bank"
   }
 ]
