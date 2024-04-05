@@ -1,12 +1,4 @@
 import React from 'react'
-import htmlIcon from '../assets/icon/HTML.svg'
-import cssIcon from '../assets/icon/CSS.svg'
-import jsIcon from '../assets/icon/JavaScript.svg'
-import mongoIcon from '../assets/icon/MongoDB.svg'
-import nextIcon from '../assets/icon/NextJS-Dark.svg'
-import reduxIcon from '../assets/icon/Redux.svg'
-import sassIcon from '../assets/icon/Sass.svg'
-import reactIcon from '../assets/icon/React-Dark.svg'
 
 const Skills = () => {
   return (
@@ -16,25 +8,25 @@ const Skills = () => {
         <div className="Stack-logo">
           <ul>
             <li>
-              <img src={htmlIcon} alt="Html icon" />
+              <img
+                src="https://skillicons.dev/icons?i=html,css"
+                alt="Html icon"
+              />
             </li>
             <li>
-              <img src={cssIcon} alt="css icon" />
+              <img src="https://skillicons.dev/icons?i=js,sass" alt="js sass" />
             </li>
             <li>
-              <img src={jsIcon} alt="javascript icon" />
+              <img
+                src="https://skillicons.dev/icons?i=react,redux"
+                alt="React redux"
+              />
             </li>
             <li>
-              <img src={sassIcon} alt="sass icon" />
-            </li>
-            <li>
-              <img src={reactIcon} alt="react icon" />
-            </li>
-            <li>
-              <img src={nextIcon} alt="nextjs icon" />
-            </li>
-            <li>
-              <img src={mongoIcon} alt="mongo icon" />
+              <img
+                src="https://skillicons.dev/icons?i=mongodb,nextjs"
+                alt="MongoDB NextJS"
+              />
             </li>
           </ul>
         </div>

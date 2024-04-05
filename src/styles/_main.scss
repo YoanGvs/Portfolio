@@ -2,7 +2,12 @@
 @import '_reset';
 @import '_header';
 @import '_hero';
-
+@import '_about';
+@import '_skill';
+@import '_card';
+@import '_contact';
+@import '_projet';
+@import '_footer';
 // Define your variables here
 
 // Write your styles here
@@ -16,6 +21,7 @@ body {
   line-height: 1.6;
   color: #333;
 }
+
 // Create your mixins or functions here
 
 // Include any additional SCSS files or partials here
