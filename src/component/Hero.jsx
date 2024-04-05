@@ -1,6 +1,5 @@
 import React from 'react'
 import ppImg from '../assets/img/hero-img.webp'
-import hand from '../assets/img/handEmote.webp'
 import Skills from './Skills'
 
 const Hero = () => {

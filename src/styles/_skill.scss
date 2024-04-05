@@ -1,0 +1,22 @@
+.skill {
+  margin-top: 3rem;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    li img {
+      margin: 1rem;
+      height: 5rem;
+      transition: all 0.3s ease-in-out;
+      width: 11rem;
+      &:hover {
+        transform: translateY(-1rem);
+      }
+    }
+  }
+  p {
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+}

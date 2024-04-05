@@ -1,15 +1,14 @@
 import React from 'react'
+import aboutHero from '../assets/img/desktop.webp'
 
 const About = () => {
   return (
     <div className="about-container">
-      <img className="about-banner" src="" alt="" />
-      <p className="about-title">About me</p>
+      <img className="about-banner" src={aboutHero} alt="" />
+      <h3 className="about-title">About me</h3>
       <h4>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio nobis
-        ratione, sed, dolorem magnam, reprehenderit porro accusantium eum
-        assumenda iure veritatis eaque repudiandae corrupti atque quibusdam
-        temporibus quaerat ducimus officiis.
+        Front-end Developer <br /> based in Meaux, France <br />
+        📍
       </h4>
       <p className="about-description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
