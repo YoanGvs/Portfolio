@@ -17,13 +17,13 @@ const Header = () => {
         </div>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#services">Pooject</a>
+            <a href="#project">Project</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

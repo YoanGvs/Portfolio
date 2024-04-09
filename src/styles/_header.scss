@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   z-index: 100;
@@ -66,4 +66,9 @@ h1 {
 svg {
   color: black;
   margin: 0.7rem;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
 }

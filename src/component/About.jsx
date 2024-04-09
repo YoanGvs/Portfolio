@@ -3,7 +3,7 @@ import aboutHero from '../assets/img/desktop.webp'
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <img className="about-banner" src={aboutHero} alt="" />
       <h3 className="about-title">About me</h3>
       <h4>
@@ -11,10 +11,12 @@ const About = () => {
         📍
       </h4>
       <p className="about-description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-        quisquam reiciendis obcaecati laboriosam, incidunt eaque error modi ea
-        fugit quibusdam, voluptate perspiciatis provident facere, maiores itaque
-        amet! Esse, pariatur itaque.
+        Hey, my name is Yoan, and I'm a Frontend Developer. My passion is to
+        create and develop a clean UI/UX for my users.
+        <br />
+        <br />
+        I'm always looking for new challenges, and I'm open to new
+        opportunities. I'm currently looking for a job as a Frontend Developer.
       </p>
     </div>
   )

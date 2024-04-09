@@ -21,8 +21,8 @@ function Portfolio() {
   const tags = ['all', 'HTML', 'CSS', 'REACT']
 
   return (
-    <div>
-      <div>
+    <div className="project-container">
+      <div className="project-filter">
         {tags.map((tag) => (
           <button key={tag} onClick={() => setSelectedTag(tag)}>
             {tag}
