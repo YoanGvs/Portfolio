@@ -5,7 +5,10 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact-title">
         <h3>Contact</h3>
-        <h4>Don't be shy! Hit me up! 👇</h4>
+        <h4>
+          Don't be shy! Hit me up! <br />
+          👇
+        </h4>
       </div>
       <div className="contact-icons">
         <div className="contact-icon-box">
@@ -17,10 +20,10 @@ const Contact = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="tabler-icon tabler-icon-map-search"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="tabler-icon tabler-icon-map-search"
             >
               <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path>
               <path d="M9 4v13"></path>
@@ -45,10 +48,10 @@ const Contact = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="tabler-icon tabler-icon-mail"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="tabler-icon tabler-icon-mail"
             >
               <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
               <path d="M3 7l9 6l9 -6"></path>
