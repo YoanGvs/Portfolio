@@ -1,17 +1,18 @@
+@import '_variables';
+
 .hero-container {
-  padding: 5rem 1rem;
+  padding: 7rem 2rem;
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1;
+  align-items: center;
+  @media screen and (min-width: $breakpoint-large) {
+    height: 100vh;
+    padding: 7rem 3rem;
+  }
 }
 
-.Hero-img {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-.profile-picture {
+.hero-img {
   animation: morph 8s ease-in-out infinite;
   background-image: url(../assets/img/hero-img.webp);
   background-position: 50%;
@@ -19,9 +20,24 @@
   background-size: cover;
   border: 3px solid #2d2e32;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 16rem;
+  height: 25rem;
+  width: 25rem;
   position: relative;
   transition: all 1s ease-in-out;
+  @media screen and (min-width: $breakpoint-large) {
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/src/assets/img/hero-img.webp);
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 35rem;
+    height: 35rem;
+  }
+
   @keyframes morph {
     0% {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -35,19 +51,52 @@
   }
 }
 
-.Hero-text {
+.hero-text {
   text-align: center;
   line-height: 2.2rem;
   font-size: 1.2rem;
   margin: 0 0 1rem;
+  h1 {
+    margin: 1rem;
+    @media screen and (min-width: $breakpoint-large) {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      margin: 0 0rem 2rem 0;
+    }
+  }
+  @media screen and (min-width: $breakpoint-large) {
+    text-align: left;
+    max-width: 35rem;
+  }
 }
 
-p {
+.hero-text p {
+  color: #555;
+  font-family: Mulish, sans-serif;
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  font-weight: 500;
+  @media screen and (min-width: $breakpoint-large) {
+    text-align: left;
+    margin: 1rem 0;
+  }
 }
 
 span {
   text-align: center;
+  @media screen and (min-width: $breakpoint-large) {
+    margin: -1rem;
+  }
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: $breakpoint-large) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5rem;
+  }
 }

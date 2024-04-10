@@ -4,10 +4,27 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  padding-top: 5rem;
+  padding: 5rem 0;
   background-color: #f9f9f9;
   h2 {
     text-transform: uppercase;
     margin-bottom: 1rem;
+  }
+}
+.project-filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #147efb;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: #0a5cbf;
+    }
   }
 }

@@ -10,10 +10,10 @@ function Card({ project }) {
       />
       <h4>{project.name}</h4>
       <p>{project.description}</p>
-      <p>{project.tags.join(', ')}</p>
       <a href={project.link} target="_blank" rel="noopener noreferrer">
-        Voir le projet
+        <i className="fa-brands fa-github"></i>
       </a>
+      <p>{project.tags.join(', ')}</p>
     </div>
   )
 }
