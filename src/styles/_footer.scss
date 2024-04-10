@@ -1,3 +1,5 @@
+@import '_variables.scss';
+
 .footer {
   background-color: #2d2e32;
   padding: 3rem 0;
@@ -13,5 +15,10 @@
   span a svg {
     color: white;
     font-size: 1rem;
+  }
+  @media screen and (min-width: $breakpoint-large) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 6rem;
   }
 }

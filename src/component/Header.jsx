@@ -17,16 +17,24 @@ const Header = () => {
         </div>
         <ul>
           <li>
-            <a href="#hero">Home</a>
+            <a href="#hero" onClick={toggleNav}>
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={toggleNav}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#project">Project</a>
+            <a href="#project" onClick={toggleNav}>
+              Project
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={toggleNav}>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
