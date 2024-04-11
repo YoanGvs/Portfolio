@@ -18,7 +18,7 @@ function Portfolio() {
       .catch((error) => console.log(error))
   }, [selectedTag])
 
-  const tags = ['all', 'HTML', 'SCSS', 'REACT', 'REDUX']
+  const tags = ['all', 'HTML', 'JS', 'SCSS', 'REACT', 'REDUX']
 
   return (
     <div className="project-container">
