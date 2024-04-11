@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ohmyfood",
-    "description": "Une courte description du projet 1.",
+    "description": "Intégration mobile-first, création d'animations CSS et gestion de versions avec Git et GitHub.",
     "image": "https://i.imgur.com/WiOKgpX.png",
     "tags": ["HTML", "CSS", "SCSS"],
     "link": "https://yoangvs.github.io/P4-Openclassroom-int-web/"
@@ -10,17 +10,25 @@
   {
     "id": 2,
     "name": "KASA",
-    "description": "Une courte description du projet 2.",
+    "description": "Configuration de la navigation via React Router, développement d'interfaces avec composants React, intégration d'animations CSS, utilisation de Sass pour des styles avancés, et initialisation de projets avec Create React App.",
     "image": "https://i.imgur.com/nBGojiQm.jpg",
-    "tags": ["HTML", "CSS", "JS", "REACT"],
+    "tags": ["HTML", "CSS", "JS", "REACT", "SASS"],
     "link": "http://lien-vers-le-projet2.com"
   },
   {
     "id": 3,
     "name": "Argent Bank",
-    "description": "Une courte description du projet 2.",
+    "description": "Compétences clés acquises : intégration de données via API, configuration de routes API, et gestion d'états avec Redux pour des applications web optimisées.",
     "image": "https://i.imgur.com/NrE0mDy.png",
     "tags": ["HTML", "CSS", "JS", "REACT", "REDUX"],
+    "link": "https://github.com/YoanGvs/Argent-Bank"
+  },
+  {
+    "id": 4,
+    "name": "Booki",
+    "description": "Maîtrise de l'implémentation d'interfaces responsives en HTML et CSS, configuration d'environnements de développement front-end, et intégration précise de contenu selon des maquettes.",
+    "image": "https://i.imgur.com/ye0kt7W.png",
+    "tags": ["HTML", "CSS", "JS"],
     "link": "https://github.com/YoanGvs/Argent-Bank"
   }
 ]
