@@ -2,23 +2,26 @@
   {
     "id": 1,
     "name": "ohmyfood",
-    "description": "Intégration mobile-first, création d'animations CSS et gestion de versions avec Git et GitHub.",
+    "description": "Mobile-first integration, CSS animation and versioning with Git and GitHub.",
+    "presentation": "Ohmyfood! is an online meal ordering company. The concept allows users to compose their own menu and reduce their waiting time in restaurants.",
     "image": "https://i.imgur.com/WiOKgpX.png",
     "tags": ["HTML", "CSS", "SCSS"],
-    "link": "https://yoangvs.github.io/P4-Openclassroom-int-web/"
+    "link": "https://github.com/YoanGvs/P4-Openclassroom-int-web"
   },
   {
     "id": 2,
     "name": "KASA",
-    "description": "Configuration de la navigation via React Router, développement d'interfaces avec composants React, intégration d'animations CSS, utilisation de Sass pour des styles avancés, et initialisation de projets avec Create React App.",
+    "description": "Configure navigation via React Router, develop interfaces with React components, integrate CSS animations, use Sass for advanced styling, and initialize projects with Create React App.",
+    "presentation": "Kasa is an accommodation rental company for private individuals. The concept enables users to find an unusual accommodation and book a night's stay.",
     "image": "https://i.imgur.com/nBGojiQm.jpg",
     "tags": ["HTML", "CSS", "JS", "REACT", "SASS"],
-    "link": "http://lien-vers-le-projet2.com"
+    "link": "https://github.com/YoanGvs/P8"
   },
   {
     "id": 3,
     "name": "Argent Bank",
-    "description": "Compétences clés acquises : intégration de données via API, configuration de routes API, et gestion d'états avec Redux pour des applications web optimisées.",
+    "description": " API data integration, API route configuration and Redux state management for optimized web applications.",
+    "presentation": "Argent Bank is an online bank. The concept allows users to consult their accounts, make transfers and manage their profile.",
     "image": "https://i.imgur.com/NrE0mDy.png",
     "tags": ["HTML", "CSS", "JS", "REACT", "REDUX"],
     "link": "https://github.com/YoanGvs/Argent-Bank"
@@ -26,7 +29,8 @@
   {
     "id": 4,
     "name": "Booki",
-    "description": "Maîtrise de l'implémentation d'interfaces responsives en HTML et CSS, configuration d'environnements de développement front-end, et intégration précise de contenu selon des maquettes.",
+    "description": "Mastery of responsive interface implementation in HTML and CSS, configuration of front-end development environments, and precise integration of content according to mock-ups.",
+    "presentation": "Booki is an online accommodation booking company. The concept allows users to book hotel rooms, houses or apartments.",
     "image": "https://i.imgur.com/ye0kt7W.png",
     "tags": ["HTML", "CSS", "JS"],
     "link": "https://github.com/YoanGvs/Argent-Bank"
