@@ -34,13 +34,5 @@
     "image": "https://i.imgur.com/ye0kt7W.png",
     "tags": ["HTML", "CSS", "JS"],
     "link": "https://github.com/YoanGvs/Argent-Bank"
-  },
-  {
-    "id": 5,
-    "description": "Mastery of responsive interface implementation in HTML and CSS, configuration of front-end development environments, and precise integration of content according to mock-ups.",
-    "presentation": "Booki is an online accommodation booking company. The concept allows users to book hotel rooms, houses or apartments.",
-    "image": "https://i.imgur.com/ye0kt7W.png",
-    "tags": ["HTML", "CSS", "JS"],
-    "link": "https://github.com/YoanGvs/Argent-Bank"
   }
 ]
