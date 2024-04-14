@@ -4,7 +4,7 @@ import aboutHero from '../assets/img/desktop.webp'
 const About = () => {
   return (
     <div id="about" className="about-container">
-      <img className="about-banner" src={aboutHero} alt="" />
+      <img className="about-banner" src={aboutHero} alt="desktop" />
 
       <div className="about-content">
         <h3 className="about-title">About me</h3>
