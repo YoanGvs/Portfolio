@@ -20,8 +20,8 @@
   background-size: cover;
   border: 3px solid #2d2e32;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 25rem;
-  width: 25rem;
+  min-height: 20rem;
+  width: 50%;
   position: relative;
   transition: all 1s ease-in-out;
   @media screen and (min-width: $breakpoint-large) {

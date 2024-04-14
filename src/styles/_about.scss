@@ -12,9 +12,11 @@
   }
 }
 .about-banner {
-  width: 32rem;
+  width: 100%;
   border-radius: 22px;
-  height: 27rem;
+  @media screen and (min-width: $breakpoint-large) {
+    width: 60%;
+  }
 }
 h3 {
   margin-top: 2rem;

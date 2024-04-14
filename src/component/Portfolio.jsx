@@ -29,13 +29,7 @@ function Portfolio() {
           </button>
         ))}
       </div>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-around',
-        }}
-      >
+      <div className="project-card">
         {projects.map((project) => (
           <Card key={project.id} project={project} />
         ))}
